@@ -1,4 +1,4 @@
-// 1.19.2	2023-04-18T16:34:35.2249672	Recipes
+// 1.19.2	2023-04-18T23:13:09.3634941	Recipes
 1da23311400ecb097dcc3847515b86192c9c315a data/forger/advancements/recipes/forger_tab/calcite_bricks.json
 8ba0b3a587aa053a564b4402e96066e9ff5cda6f data/forger/advancements/recipes/forger_tab/calcite_tiles.json
 df94aa71f0e476f55fa331b614e897ea74a81e6d data/forger/advancements/recipes/forger_tab/compound_calcite.json
@@ -6,6 +6,7 @@ df94aa71f0e476f55fa331b614e897ea74a81e6d data/forger/advancements/recipes/forger
 922749e5c36d20da725b6a99fbb0fbda796d1441 data/forger/advancements/recipes/forger_tab/compound_tuff.json
 3cce06a6ba0dcf11e82e46d1b4b6aebf33d0a10b data/forger/advancements/recipes/forger_tab/dripstone_bricks.json
 6008e439d4d6f728370f54e8a5255dfb7cf7ceb8 data/forger/advancements/recipes/forger_tab/dripstone_tiles.json
+7ac25e8aef053d0ab960dfa17e6062a3741b4c17 data/forger/advancements/recipes/forger_tab/malvanite_alloy.json
 dbfb8ed90332ebc01adfb403309c80d21a38f143 data/forger/advancements/recipes/forger_tab/malvanite_lamp.json
 e2fcb67799f8f142b1c55ddce7b00711cbd5b5bf data/forger/advancements/recipes/forger_tab/polished_calcite.json
 438aecc0ba609650c0b44c2cdf82447e5309598f data/forger/advancements/recipes/forger_tab/polished_dripstone.json
@@ -19,6 +20,7 @@ a13e701e7b0fa444346f33adee4bd0234925e5f6 data/forger/advancements/recipes/forger
 60c4bba14805db9e56e567511a28812006d30afe data/forger/recipes/compound_tuff.json
 1d5234452edc886f93f7f71114ac19e1365daf70 data/forger/recipes/dripstone_bricks.json
 4ab49b670216c863b2d9e695c49cf1daedab2246 data/forger/recipes/dripstone_tiles.json
+70e412d479f18c9c1d358f568f65f0f3119e92e3 data/forger/recipes/malvanite_alloy.json
 7bc5036f0e3f09d4fb84a7b7bbf08c1bcdbabf08 data/forger/recipes/malvanite_lamp.json
 5eeb9d23d40368465d479b145f17af3bffc747af data/forger/recipes/polished_calcite.json
 accb811eb8f0dcf905628e256d69d497c594a74d data/forger/recipes/polished_dripstone.json

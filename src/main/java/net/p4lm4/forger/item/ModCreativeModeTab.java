@@ -7,7 +7,7 @@ public class ModCreativeModeTab {
     public static CreativeModeTab FORGER_TAB = new CreativeModeTab("forger_tab") {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(ModItems.MALVANITE_CRYSTAL.get());
+            return new ItemStack(ModItems.MALVANITE_ALLOY.get());
         }
     };
 

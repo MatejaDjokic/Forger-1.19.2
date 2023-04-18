@@ -1,0 +1,47 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_malvanite_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "forger:malvanite_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_malvanite_crystal_block": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "forger:malvanite_crystal_block"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "forger:malvanite_alloy"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_malvanite_block",
+      "has_malvanite_crystal_block",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "forger:malvanite_alloy"
+    ]
+  }
+}

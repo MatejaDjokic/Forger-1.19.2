@@ -28,6 +28,9 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(ModItems.TUFF_COMPOUND);
         simpleItem(ModItems.CALCITE_COMPOUND);
         simpleItem(ModItems.DRIPSTONE_COMPOUND);
+        simpleItem(ModItems.MALVANITE_ALLOY);
+        simpleItem(ModItems.ITERO);
+        simpleItem(ModItems.RESTLESS);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

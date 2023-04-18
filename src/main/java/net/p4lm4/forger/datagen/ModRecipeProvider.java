@@ -8,6 +8,7 @@ import net.minecraft.data.recipes.RecipeProvider;
 import net.minecraft.data.recipes.ShapedRecipeBuilder;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.crafting.RecipeSerializer;
 import net.minecraft.world.level.ItemLike;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.material.Material;
@@ -209,9 +210,17 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .unlockedBy("has_dripstone_bricks", inventoryTrigger(ItemPredicate.Builder.item()
                         .of(ModBlocks.DRIPSTONE_BRICKS.get()).build()))
                 .save(consumer);
-    }
 
-    //public static RecipeBuilder polishedBuilder(ItemLike pResult, Ingredient pMaterial) {
-    //    return ShapedRecipeBuilder.shaped(pResult, 4).define('S', pMaterial).pattern("SS").pattern("SS");
-    //}
+        ShapedRecipeBuilder.shaped(ModItems.MALVANITE_ALLOY.get(), 2)
+                .define('c', ModBlocks.MALVANITE_CRYSTAL_BLOCK.get())
+                .define('m', ModBlocks.MALVANITE_BLOCK.get())
+                .pattern("cm")
+                .pattern("mc")
+                .group("malvanite_alloy_from_2x2")
+                .unlockedBy("has_malvanite_block", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModBlocks.MALVANITE_BLOCK.get()).build()))
+                .unlockedBy("has_malvanite_crystal_block", inventoryTrigger(ItemPredicate.Builder.item()
+                        .of(ModBlocks.MALVANITE_CRYSTAL_BLOCK.get()).build()))
+                .save(consumer);
+    }
 }

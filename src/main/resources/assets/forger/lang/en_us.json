@@ -9,6 +9,9 @@
   "item.forger.tuff_compound": "Tuff Compound",
   "item.forger.calcite_compound": "Calcite Compound",
   "item.forger.dripstone_compound": "Dripstone Compound",
+  "item.forger.malvanite_alloy": "Malvanite Alloy",
+  "item.forger.itero": "Itero",
+  "item.forger.restless": "Restless",
 
   "block.forger.malvanite_block": "Block of Malvanite",
   "block.forger.raw_malvanite_block": "Block of Raw Malvanite",

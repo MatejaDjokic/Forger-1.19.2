@@ -21,6 +21,8 @@ import org.slf4j.Logger;
 @net.minecraftforge.fml.common.Mod(Forger.MOD_ID)
 public class Forger {
     public static final String MOD_ID = "forger";
+    public static final int SECONDS = 20;
+    public static final float SECONDSf = 20f;
     private static final Logger LOGGER = LogUtils.getLogger();
 
     public Forger() {

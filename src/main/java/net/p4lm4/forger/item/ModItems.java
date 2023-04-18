@@ -1,5 +1,7 @@
 package net.p4lm4.forger.item;
 
+import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.BucketItem;
 import net.minecraft.world.item.Item;
@@ -45,10 +47,24 @@ public class ModItems {
                             .stacksTo(1)));
     public static final RegistryObject<Item> TUFF_COMPOUND = ITEMS.register("tuff_compound",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FORGER_TAB)));
-
     public static final RegistryObject<Item> CALCITE_COMPOUND = ITEMS.register("calcite_compound",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FORGER_TAB)));
-
     public static final RegistryObject<Item> DRIPSTONE_COMPOUND = ITEMS.register("dripstone_compound",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FORGER_TAB)));
+    public static final RegistryObject<Item> MALVANITE_ALLOY = ITEMS.register("malvanite_alloy",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FORGER_TAB)));
+    public static final RegistryObject<Item> ITERO = ITEMS.register("itero",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FORGER_TAB)
+                    .food(new FoodProperties.Builder()
+                            .nutrition(4)
+                            .saturationMod(4f)
+                            .effect(() -> new MobEffectInstance(MobEffects.CONFUSION, 10 * Forger.SECONDS, 1), 1)
+                            .build())));
+    public static final RegistryObject<Item> RESTLESS = ITEMS.register("restless",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.FORGER_TAB)
+                    .food(new FoodProperties.Builder()
+                            .nutrition(4)
+                            .saturationMod(4f)
+                            .effect(() -> new MobEffectInstance(MobEffects.BLINDNESS, 10 * Forger.SECONDS, 1), 1)
+                            .build())));
 }

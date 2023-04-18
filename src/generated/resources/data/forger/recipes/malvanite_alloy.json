@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "malvanite_alloy_from_2x2",
+  "key": {
+    "c": {
+      "item": "forger:malvanite_crystal_block"
+    },
+    "m": {
+      "item": "forger:malvanite_block"
+    }
+  },
+  "pattern": [
+    "cm",
+    "mc"
+  ],
+  "result": {
+    "count": 2,
+    "item": "forger:malvanite_alloy"
+  }
+}
