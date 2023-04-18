@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "raw_malvanite",
+  "ingredients": [
+    {
+      "item": "forger:raw_malvanite_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "forger:raw_malvanite"
+  }
+}

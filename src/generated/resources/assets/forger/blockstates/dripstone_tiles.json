@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "forger:block/dripstone_tiles"
+    }
+  }
+}

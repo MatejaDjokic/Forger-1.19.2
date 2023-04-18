@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "raw_malvanite_block",
+  "key": {
+    "#": {
+      "item": "forger:raw_malvanite"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "forger:raw_malvanite_block"
+  }
+}

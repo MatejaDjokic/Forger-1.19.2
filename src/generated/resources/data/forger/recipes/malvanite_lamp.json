@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "c": {
+      "item": "forger:malvanite_crystal"
+    },
+    "l": {
+      "item": "minecraft:redstone_lamp"
+    },
+    "n": {
+      "item": "forger:malvanite_nugget"
+    }
+  },
+  "pattern": [
+    "cnc",
+    "nln",
+    "cnc"
+  ],
+  "result": {
+    "item": "forger:malvanite_lamp"
+  }
+}

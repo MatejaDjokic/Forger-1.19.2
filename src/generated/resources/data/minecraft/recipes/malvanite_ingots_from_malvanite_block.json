@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "malvanite_ingot",
+  "ingredients": [
+    {
+      "item": "forger:malvanite_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "forger:malvanite_ingot"
+  }
+}

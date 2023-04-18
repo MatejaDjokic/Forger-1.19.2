@@ -1,0 +1,60 @@
+{
+  "item.forger.malvanite_crystal": "Malvanite Crystal",
+  "item.forger.raw_malvanite": "Raw Malvanite",
+  "item.forger.malvanite_ingot": "Malvanite Ingot",
+  "item.forger.malvanite_nugget": "Malvanite Nugget",
+  "item.forger.malvan": "Malvan",
+  "item.forger.malvan_seeds": "Malvan Seeds",
+  "item.forger.malvan_juice_bucket": "Malvan Juice Bucket",
+  "item.forger.tuff_compound": "Tuff Compound",
+  "item.forger.calcite_compound": "Calcite Compound",
+  "item.forger.dripstone_compound": "Dripstone Compound",
+
+  "block.forger.malvanite_block": "Block of Malvanite",
+  "block.forger.raw_malvanite_block": "Block of Raw Malvanite",
+  "block.forger.malvanite_crystal_block": "Block of Crystal Malvanite",
+
+  "block.forger.tuff_bricks": "Tuff Bricks",
+  "block.forger.cracked_tuff_bricks": "Cracked Tuff Bricks",
+  "block.forger.tuff_tiles": "Tuff Tiles",
+  "block.forger.cracked_tuff_tiles": "Cracked Tuff Tiles",
+  "block.forger.polished_tuff": "Polished Tuff",
+  "block.forger.compound_tuff": "Compound Tuff",
+
+  "block.forger.calcite_bricks": "Calcite Bricks",
+  "block.forger.cracked_calcite_bricks": "Cracked Calcite Bricks",
+  "block.forger.calcite_tiles": "Calcite Tiles",
+  "block.forger.cracked_calcite_tiles": "Cracked Calcite Tiles",
+  "block.forger.polished_calcite": "Polished Calcite",
+  "block.forger.compound_calcite": "Compound Calcite",
+
+  "block.forger.dripstone_bricks": "Dripstone Bricks",
+  "block.forger.cracked_dripstone_bricks": "Cracked Dripstone Bricks",
+  "block.forger.dripstone_tiles": "Dripstone Tiles",
+  "block.forger.cracked_dripstone_tiles": "Cracked Dripstone Tiles",
+  "block.forger.polished_dripstone": "Polished Dripstone",
+  "block.forger.compound_dripstone": "Compound Dripstone",
+
+  "block.forger.malvanite_lamp":"Malvanite Lamp",
+  "block.forger.malvan_crop":"Malvan Crop",
+
+  "block.forger.malvanite_ore": "Malvanite Ore",
+  "block.forger.deepslate_malvanite_ore": "Deepslate Malvanite Ore",
+  "block.forger.netherrack_malvanite_ore": "Netherrack Malvanite Ore",
+  "block.forger.endstone_malvanite_ore": "Endstone Malvanite Ore",
+
+  "block.forger.malvanite_crystal_ore": "Malvanite Crystal Ore",
+  "block.forger.deepslate_malvanite_crystal_ore": "Deepslate Malvanite Crystal Ore",
+  "block.forger.netherrack_malvanite_crystal_ore": "Netherrack Malvanite Crystal Ore",
+  "block.forger.endstone_malvanite_crystal_ore": "Endstone Malvanite Crystal Ore",
+
+  "itemGroup.forger_tab": "Forger",
+
+  "entity.minecraft.villager.forger.crystal_master": "Crystal Master",
+
+  "key.category.forger.forger": "Forger",
+  "key.forger.drink_water": "Drink Water",
+
+  "message.forger.drink_water": "Drinking Water",
+  "message.forger.no_water": "No water nearby!"
+}

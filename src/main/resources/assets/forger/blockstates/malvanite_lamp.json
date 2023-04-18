@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "lit=true": { "model": "forger:block/malvanite_lamp_on" },
+    "lit=false": { "model": "forger:block/malvanite_lamp_off" }
+  }
+}

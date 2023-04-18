@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "forger:malvanite_block",
+    "forger:raw_malvanite_block",
+    "forger:malvanite_crystal_block",
+    "forger:malvanite_ore",
+    "forger:malvanite_crystal_ore",
+    "forger:deepslate_malvanite_ore",
+    "forger:deepslate_malvanite_crystal_ore"
+  ]
+}

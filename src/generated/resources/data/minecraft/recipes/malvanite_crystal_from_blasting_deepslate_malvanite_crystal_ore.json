@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:blasting",
+  "cookingtime": 100,
+  "experience": 0.7,
+  "group": "malvanite_crystal_from_deep_ore",
+  "ingredient": {
+    "item": "forger:deepslate_malvanite_crystal_ore"
+  },
+  "result": "forger:malvanite_crystal"
+}

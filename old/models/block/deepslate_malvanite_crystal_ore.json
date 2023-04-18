@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "forger:block/deepslate_malvanite_crystal_ore"
+  }
+}
